@@ -5,3 +5,7 @@ To run an example download the repo, move to the project folder and perform folo
 2. Android: react-native run-android
 
 Or you can download an apk file from builds folder copy it on your android device and run the app on your phone.
+
+Demo:
+
+![React Native Animated Hooks Demo](demo/demo.gif)
