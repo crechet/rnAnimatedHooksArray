@@ -33,7 +33,7 @@ const ScreenContainer = (props: Props) => {
             forceInset={safeAreaForceInset}
         >
             <StatusBar
-                barStyle='dark-content'
+                barStyle='light-content'
                 translucent
                 backgroundColor={'rgba(0, 0, 0, 0)'}
             />
