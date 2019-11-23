@@ -5,6 +5,13 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
+    "iphone-6": "react-native run-ios --simulator 'iPhone 6'",
+    "iphone-7": "react-native run-ios --simulator 'iPhone 7'",
+    "iphone-8": "react-native run-ios --simulator 'iPhone 8'",
+    "iphone-x": "react-native run-ios --simulator 'iPhone X'",
+    "iphone-xr": "react-native run-ios --simulator 'iPhone Xr'",
+    "iphone-xs": "react-native run-ios --simulator 'iPhone Xs'",
+    "iphone-xsmax": "react-native run-ios --simulator 'iPhone Xs Max'",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."
