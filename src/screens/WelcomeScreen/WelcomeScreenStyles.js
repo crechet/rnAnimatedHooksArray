@@ -3,7 +3,7 @@ import { COLORS } from '../../styles/commonStyles';
 
 const styles = StyleSheet.create({
     screenContainer: {
-        backgroundColor: COLORS.neutralBackground
+        backgroundColor: COLORS.black
     },
 
     container: {
