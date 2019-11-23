@@ -14,9 +14,16 @@
     "iphone-xsmax": "react-native run-ios --simulator 'iPhone Xs Max'",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "flow": "flow",
+    "flow-stop": "flow stop",
+    "clear-watchman": "watchman watch-del-all",
+    "clear-start-cache": "react-native start --reset-cache",
+    "clear-cache": "rm -rf $TMPDIR/react-*; rm -rf $TMPDIR/haste-*; rm -rf $TMPDIR/metro-*;",
+    "clear": "npx npm-run-all clear-cache clear-watchman clear-start-cache"
   },
   "dependencies": {
+    "flow-bin": "^0.105.2",
     "react": "16.9.0",
     "react-native": "0.61.4"
   },
