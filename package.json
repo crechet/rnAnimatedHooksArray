@@ -25,7 +25,9 @@
   "dependencies": {
     "flow-bin": "^0.105.2",
     "react": "16.9.0",
-    "react-native": "0.61.4"
+    "react-native": "0.61.4",
+    "react-native-safe-area-context": "^0.6.0",
+    "react-native-safe-area-view": "^1.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.7.4",
